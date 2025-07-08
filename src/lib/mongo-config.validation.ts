@@ -4,7 +4,6 @@ import { plainToClass } from 'class-transformer';
 export class MongoConfigDto {
     @IsString()
     @IsNotEmpty({ message: 'MONGO_DB_URI is required for MongoDB module' })
-    @IsUrl({}, { message: 'MONGO_DB_URI must be a valid MongoDB connection string' })
     uri: string;
 
     @IsNumber()
