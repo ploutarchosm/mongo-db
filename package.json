@@ -1,6 +1,6 @@
 {
   "name": "@ploutos/mongo-db",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Wrapper of connection to MongoDB database",
   "author": "Ploutarchos Michaelides",
   "license": "MIT",
